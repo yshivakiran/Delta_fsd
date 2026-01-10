@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="black">
+        <caption>Student information</caption>
+        <tr>
+            <th rowspan="6">info</th>
+            <th rowspan="2">Name</th>
+            <th colspan="2">Address</th>
+        </tr>
+        <tr>
+            <th>city</th>
+            <th>House</th>
+        </tr>
+        <tr>
+            <td>A</td>
+            <td>Delhi</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>B</td>
+            <td>mumbai</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>c</td>
+            <td>kolkata</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>D</td>
+            <td>pune</td>
+            <td>4</td>
+        </tr>
+    </table>
+    <hr>
+    <div>
+        <form action="/action">
+            <div>
+                Name:
+                <input type="text"id="id1" name="name">
+            </div>
+            <div>
+                sex:
+                <input type="radio" id="id2" name="sex" value="male">
+                <label for="male">Male</label>
+                <input type="radio" id="id2" name="sex" value="female">
+                <label for="female">Female</label>
+            </div>
+            <div>
+                country:
+                <select name="country" id="id3" placeholder="select an option">
+                    <option value="select an option">select an option</option>
+                    <option value="india">india</option>
+                    <option value="nepal">nepal</option>
+                    <option value="USA">USA</option>
+                </select>
+            </div>
+            <div>
+                message:
+                <textarea name="mess">hi hello</textarea>
+            </div>
+            <div>
+                <input type="checkbox">
+                <label>subscribe</label>
+            </div>
+
+        </form>
+    </div>
+
+</body>
+</html>
+
