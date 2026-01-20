@@ -1,0 +1,32 @@
+.container{
+    height: 400px;
+    width: 400px;
+    border: 2px solid blue;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.inner{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 50px;
+    background-color: rgb(92, 84, 84);
+}
+.container1{
+    height: 50px;
+    width: 900px;
+    border: 2px solid blue;
+    border-radius: 10px;
+    background-color: aqua;
+    display: flex;
+}
+.child{
+    height: 50px;
+    width: 80px;
+    font-size: 24px;
+}
