@@ -5,7 +5,7 @@
     border-radius: 10px;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 }
 .inner{
@@ -15,15 +15,17 @@
     border-radius: 10px;
     text-align: center;
     font-size: 50px;
-    background-color: rgb(92, 84, 84);
+    background-color: grey;
+    align-self: center;
 }
 .container1{
     height: 50px;
     width: 900px;
     border: 2px solid blue;
     border-radius: 10px;
-    background-color: aqua;
+    background-color: pink;
     display: flex;
+    align-content: center;
 }
 .child{
     height: 50px;
