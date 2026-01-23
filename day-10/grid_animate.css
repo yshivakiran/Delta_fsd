@@ -1,0 +1,21 @@
+div{
+        height: 100px;
+        width: 200px;
+        border: 2px solid black;
+        animation: animate 2s linear 0.3s infinite normal;
+        
+        margin: auto;
+        transition: margin-top 2s ease-in-out 0.2s;
+}
+@keyframes animate{
+    from{
+        background-color: antiquewhite;
+        margin-top: 10px;
+    }
+    to{
+        width: 800px;
+        background-color: aqua;
+        border-radius: 10px;
+        margin-top: 500px;
+    }
+}
