@@ -11,6 +11,7 @@ body{
 .main{
     display: flex;
     height: 100vh;
+    padding: 0.5rem;
 }
 .sidebar{
     background-color: #008000;
@@ -62,15 +63,41 @@ a{
 .library{
     background-color: #121212;
     border-radius: 1rem;
-    display: flex;
-    justify-content: space-between;
-    /* align-items: center; */
+   
     margin-top: 8px;
     height: 100%;
     padding: 0.5rem 0.75rem;
 
 }
+.option{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
 .lib-option img{
-    height: 1rem;
-    width: 1rem;
+    height: 1.25rem;
+    width: 1.25rem;
+}
+.icons{
+    font-size: 1.25rem;
+    display: flex;
+}
+.icons i{
+    margin-right: 1rem;
+    opacity: 0.7;
+}
+.icons i:hover{
+    opacity: 1;
+}
+.box{
+    background-color: #232323;
+    height: 8rem;
+}
+.p1{
+    font-size: 1rem;
+}
+.p2{
+    font-size: 0.7rem;
+    opacity: 0.7;
 }
