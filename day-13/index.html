@@ -131,7 +131,7 @@
         <div class="music-player">
             <div class="albums">
                 <img src="./assets/card4img.jpeg" class="img">
-                <div class="song-info">
+                <div class="song-info ">
                     <div class="album-title">LEO</div>
                     <div class="album-info">Naa ready</div>
                 </div>
@@ -152,11 +152,17 @@
                 </div>
                 <div class="playback-bar">
                     <span class="cur-time">00:00</span>
-                    <input type="range" min="0" max="100" class="progress-bar">
+                    <input type="range" min="0" max="100" class="progress-bar" step="1">
                     <span class="tot-time">3:24</span>
                 </div>
             </div>
-            <div class="controls"></div>
+            <div class="controls">
+                <i class="fa-regular fa-square-caret-right"></i>
+                <i class="fa-solid fa-microphone"></i>
+                <i class="fa-solid fa-volume-low"></i>
+                <input type="range" min="0" max="100" class="progress-bar" step="1">
+                <i class="fa-solid fa-volume-high"></i>
+            </div>
         </div>
     </div>
 </body>
